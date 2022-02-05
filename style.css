@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-container {
+    background-image: url(s.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.right {
+    position: absolute;
+    width: 360px;
+    left: 60%;
+    height: 580px;
+    top: calc(50% - 580px / 2);
+    background: #ffff;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 145px;
+    align-items: center;
+    font-family: 'Sansation', sans-serif;
+    color: #3dd8dde8;
+}
+
+::placeholder {
+    color: #85b6ff;
+    font-size: 18px;
+}
+
+.icon {
+    position: absolute;
+    padding: 24px 32px;
+    height: 75px;
+    width: 90px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+    margin-top: -40px;
+}
+
+input[type="email"],
+input[type="password"] {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 20px;
+    color: #85b6ff;
+    padding: 20px 10px 20px 5px;
+    border: 2px solid #568aee;
+    width: 280px;
+    height: 45px;
+    margin: 15px;
+    border-radius: 25px;
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    font-family: 'Scheherazade New', serif;
+    background-color: #ffff;
+}
+
+input[type="checkbox"] {
+    vertical-align: middle;
+    margin-right: 3px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    height: 18px;
+    width: 18px;
+}
+
+.keepme {
+    margin: 15px;
+    color: #71a1bd;
+    font-family: 'Scheherazade New', serif;
+    font-weight: bold;
+}
+
+button {
+    width: 260px;
+    height: 45px;
+    left: 1273px;
+    top: 780px;
+    font-family: 'Sansation', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+    color: #ffff;
+    border: none;
+    background: rgba(135, 113, 224, 0.89);
+    border-radius: 25px;
+}
+
+button:hover {
+    background-color: rgba(88, 134, 233, 0.822);
+    animation: bounce 1s
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0)
+	}
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px)
+	}
+}
+
+.link {
+    text-align: center;
+    display: block;
+    margin: 18px;
+    color: #71a1bd;
+    font-family: 'Scheherazade New', serif;
+    font-weight: bold;
+    text-decoration: none;
+}
