@@ -5,7 +5,7 @@
 }
 
 .contact-container {
-    background-image: url(../s.jpg);
+    background-image: url(img/png/backgroun-s.png);
     background-size: cover;
     height: 100vh;
 }
@@ -29,7 +29,7 @@
     line-height: 145px;
     align-items: center;
     font-family: 'Sansation', sans-serif;
-    color: #3dd8dde8;
+    color: #568AEE;
 }
 
 ::placeholder {
@@ -99,12 +99,12 @@ button {
     cursor: pointer;
     color: #ffff;
     border: none;
-    background: rgba(135, 113, 224, 0.89);
+    background: #CC6B8E;
     border-radius: 25px;
 }
 
 button:hover {
-    background-color: rgba(88, 134, 233, 0.822);
+    background-color: #904B6B;
     animation: bounce 1s
 }
 
