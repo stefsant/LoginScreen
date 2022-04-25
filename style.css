@@ -5,7 +5,7 @@
 }
 
 .contact-container {
-    background-image: url(s.jpg);
+    background-image: url(../s.jpg);
     background-size: cover;
     height: 100vh;
 }
